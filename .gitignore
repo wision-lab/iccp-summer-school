@@ -4,4 +4,5 @@ __pycache__
 part_1_passive_SPADs/data/exposure_sequence
 *answerkey*
 *.exr
+*.npy
 .ipynb_checkpoints
