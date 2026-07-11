@@ -1,0 +1,23 @@
+# Core scientific
+numpy
+matplotlib
+scipy
+
+# Part 1: Passive SPAD imaging (notebooks)
+jupyter
+ipython
+pyyaml
+OpenEXR
+einops
+mediapy
+opencv-python
+torch
+torchvision
+
+# Part 2: Active SPAD imaging (live visualization & hardware)
+pyserial
+pyqtgraph
+pyqt6
+open3d
+pynput
+pillow

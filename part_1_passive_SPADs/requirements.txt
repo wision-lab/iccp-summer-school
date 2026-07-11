@@ -1,9 +1,0 @@
-einops
-matplotlib
-mediapy
-jupyter
-numpy
-pyyaml
-torchvision
-torch
-OpenEXR
