@@ -1,4 +1,5 @@
 __pycache__
 .idea
 *.DS_Store
+part_1_passive_SPADs/data/*.npy
 part_1_passive_SPADs/data/exposure_sequence
