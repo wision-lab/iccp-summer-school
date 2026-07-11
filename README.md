@@ -4,14 +4,10 @@ Hands-on activities exploring single-photon imaging with SPAD (Single Photon Ava
 
 ## Setup
 
-Create a Python virtual environment and install the dependencies.
+Create a Python virtual environment and install the dependencies. For this we recommend using uv, but feel free to use your tool of choice.
 
-### Option A: UV
-
+If you need to install UV, [see the official instructions here](https://docs.astral.sh/uv/getting-started/installation/).
 ```bash
-# Install UV (if not already installed)
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
 # Create a virtual environment and install dependencies
 uv venv
 uv pip install -r requirements.txt
@@ -19,28 +15,8 @@ uv pip install -r requirements.txt
 
 > **Note:** This creates a virtual environment in `.venv/`. Use `uv run python ...` or `uv run jupyter lab` to run commands inside the environment, or activate the environment with `source .venv/bin/activate` (or `.venv\Scripts\activate` for windows).
 
-### Option B: Conda / Micromamba
+You'll also need to install ffmpeg. You can download an executable [from here](https://ffmpeg.org/download.html) or use your package manager to install it.
 
-```bash
-# Create the environment from requirements.txt
-conda create -n iccp python=3.12 --file requirements.txt
-conda activate iccp
-```
-
-Or with micromamba:
-
-```bash
-micromamba create -n iccp python=3.12 --file requirements.txt
-micromamba activate iccp
-```
-
-### Option C: pip + venv
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
 
 ## Part 1: Passive Imaging ([details](part_1_passive_SPADs/README.md))
 

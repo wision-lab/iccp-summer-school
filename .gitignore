@@ -2,3 +2,6 @@ __pycache__
 .idea
 *.DS_Store
 part_1_passive_SPADs/data/exposure_sequence
+*answerkey*
+*.exr
+.ipynb_checkpoints
