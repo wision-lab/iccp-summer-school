@@ -2,7 +2,7 @@
 
 Prerequisites: 
 - Install all required packages using `pip install -r requirements.txt`
-- Download the numpy files and `hdr_stairs_small.exr` files from [here](https://github.com/cpsiff/SPAD-ICCP-Summer-School/releases).
+- Download the numpy files and `hdr_stairs_small.exr` files from [here](https://github.com/wision-lab/iccp-summer-school/releases/tag/data).
 
 ## 1.a: High Dynamic Range Imaging
 
