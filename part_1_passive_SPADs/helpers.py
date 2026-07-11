@@ -93,7 +93,7 @@ class EmulatePhotonCube:
             return np.array(
                 [
                     self._sample_single_frame(seed=i)
-                    for i in range(item.start, item.stop, item.step or 1)
+                    for i in range(item.start or 0, item.stop, item.step or 1)
                 ]
             )
         raise IndexError(
